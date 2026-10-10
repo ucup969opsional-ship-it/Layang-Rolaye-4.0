@@ -41,7 +41,12 @@
     text-align: center;
     padding: 20px;
   }
-  #introScreen.hidden { display: none; }
+  #introScreen.hidden {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
 
   .intro-kite {
     font-size: 80px;
